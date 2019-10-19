@@ -7,5 +7,5 @@ while True:
     key = cv2.waitKey(1) & 0xFF
     if key == 27:
         break
-cap.release()
+cap.release() #releasing video object
 cv2.destroyAllWindows()
